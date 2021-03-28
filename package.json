@@ -1,0 +1,32 @@
+{
+  "name": "etsy-scraper",
+  "version": "1.0.0",
+  "description": "Etsy scraper for retrieving well structured JSON data from etsy.com.",
+  "main": "etsy.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "fake-useragent": "^1.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node etsy",
+    "dev": "nodemon etsy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phooni/etsy-scraper.git"
+  },
+  "author": "Phooni Limited <orders@phooni.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phooni/etsy-scraper/issues"
+  },
+  "homepage": "https://github.com/phooni/etsy-scraper#readme"
+}
